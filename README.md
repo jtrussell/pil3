@@ -1,6 +1,6 @@
 # Programming in Lua 3rd Edition
 
-> Notes and exercises
+> My personal notes, exercise solutions, and scratch pad.
 
 # License
 
