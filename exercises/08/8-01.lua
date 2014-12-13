@@ -1,4 +1,6 @@
 
+-- Ended up being a bit convoluted but a good experiment with load and lexical
+-- scoping.
 function loadwithprefix(pref, chunkOrReader)
 
   local _reader
