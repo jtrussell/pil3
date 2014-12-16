@@ -1,4 +1,6 @@
 
+-- @todo not quite done yet... run this code you'll see it misses e.g. "ab"
+
 -- import `catall`
 dofile '5-01.lua'
 
