@@ -8,5 +8,3 @@ function catall(...)
   return bulk
 end
 
-catall('foo', 'bar')
-catall('f', 'o', 'o')
