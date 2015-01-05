@@ -51,8 +51,15 @@ function all_combinations(set)
   return all
 end
 
--- test = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'}
-test = {'a', 'b', 'c', 'd'}
+io.write('How many things should I use (1-26)? ')
+local size = tonumber(io.read())
+
+local letters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'}
+local test = {}
+
+for i = 1, size do
+  test[i] = letters[i]
+end
 
 for i, v in ipairs(all_combinations(test)) do
   if #v == 0 then
@@ -61,3 +68,4 @@ for i, v in ipairs(all_combinations(test)) do
     print(table.unpack(v))
   end
 end
+
