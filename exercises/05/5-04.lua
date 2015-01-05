@@ -48,10 +48,14 @@ function all_combinations(set)
       table.insert(all, v)
     end
   end
+
+  -- Last but not least
+  table.insert(all, {})
+
   return all
 end
 
-io.write('How many things should I use (1-26)? ')
+io.write('How many things should I use (0-26)? ')
 local size = tonumber(io.read())
 
 local letters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'}
